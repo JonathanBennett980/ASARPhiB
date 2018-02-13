@@ -11,7 +11,7 @@
 
 
 
-    <title>Ghost</title>
+    <title>ASARPhiB</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -20,30 +20,32 @@
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
+    <!-- MathJax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
-    <meta name="description" content="The professional publishing platform" />
-    <link rel="shortcut icon" href="http://localhost:4000/ASARPhiB/assets/images/favicon.png" type="image/png" />
+    <meta name="description" content="ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small>" />
+    <link rel="shortcut icon" href="http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_logo.svg.png" type="image/png" />
     <link rel="canonical" href="http://localhost:4000/ASARPhiB/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
-    <meta property="og:site_name" content="Ghost" />
+    <meta property="og:site_name" content="ASARPhiB" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ghost" />
-    <meta property="og:description" content="The professional publishing platform" />
+    <meta property="og:title" content="ASARPhiB" />
+    <meta property="og:description" content="ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small>" />
     <meta property="og:url" content="http://localhost:4000/ASARPhiB/" />
-    <meta property="og:image" content="http://localhost:4000/ASARPhiB/assets/images/blog-cover.jpg" />
-    <meta property="article:publisher" content="https://www.facebook.com/ghost" />
+    <meta property="og:image" content="http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_cover.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Ghost" />
-    <meta name="twitter:description" content="The professional publishing platform" />
+    <meta name="twitter:title" content="ASARPhiB" />
+    <meta name="twitter:description" content="ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small>" />
     <meta name="twitter:url" content="http://localhost:4000/ASARPhiB/" />
-    <meta name="twitter:image" content="http://localhost:4000/ASARPhiB/assets/images/blog-cover.jpg" />
+    <meta name="twitter:image" content="http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Ghost" />
-    <meta name="twitter:site" content="@tryghost" />
-    <meta name="twitter:creator" content="@tryghost" />
+    <meta name="twitter:data1" content="ASARPhiB" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="2000" />
     <meta property="og:image:height" content="666" />
 
@@ -53,13 +55,13 @@
     "@type": "Website",
     "publisher": {
         "@type": "Organization",
-        "name": "Ghost",
-        "logo": "http://localhost:4000/ASARPhiB/assets/images/blog-icon.png"
+        "name": "ASARPhiB",
+        "logo": "http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_banner.png"
     },
     "url": "http://localhost:4000/ASARPhiB/",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/ASARPhiB/assets/images/blog-cover.jpg",
+        "url": "http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_cover.jpg",
         "width": 2000,
         "height": 666
     },
@@ -67,7 +69,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/ASARPhiB/"
     },
-    "description": "The professional publishing platform"
+    "description": "ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small>"
 }
     </script>
 
@@ -80,7 +82,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Ghost" href="/ASARPhiB/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="ASARPhiB" href="/ASARPhiB/feed.xml" />
 
 
 </head>
@@ -93,15 +95,15 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/ASARPhiB/assets/images/blog-cover.jpg) ">
+<header class="site-header outer " style="background-image:  url(/ASARPhiB/assets/images/ASARPhiB_cover.jpg) ">
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
                 
-                    <img class="site-logo" src="/ASARPhiB/assets/images/blog-icon.png" alt="Ghost"/>
+                    <img class="site-logo" src="/ASARPhiB/assets/images/ASARPhiB_banner.png" alt="ASARPhiB"/>
                 
             </h1>
-            <h2 class="site-description">The professional publishing platform</h2>
+            <h2 class="site-description">ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small></h2>
         </div>
         <nav class="site-nav">
     <div class="site-nav-left">
@@ -111,7 +113,6 @@ into the {body} of the default.hbs template -->
     <li class="nav-home" role="menuitem"><a href="/ASARPhiB/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/ASARPhiB/about/">About</a></li>
     <li class="nav-getting-started" role="menuitem"><a href="/ASARPhiB/tag/getting-started/">Getting Started</a></li>
-    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
 </ul>
 
         
@@ -119,12 +120,6 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-right">
         <div class="social-links">
             
-                <a class="social-link social-link-fb" href="https://facebook.com/ghost" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
-</a>
-            
-            
-                <a class="social-link social-link-tw" href="https://twitter.com/tryghost" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
-</a>
             
         </div>
         
@@ -145,491 +140,39 @@ into the {body} of the default.hbs template -->
             
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/ASARPhiB/welcome">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/welcome.jpg)"></div>
+            <a class="post-card-image-link" href="/ASARPhiB/rules-of-inference">
+                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/posts/Icelandic_Roads_Faded_4.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/welcome">
+            <a class="post-card-content-link" href="/ASARPhiB/rules-of-inference">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Getting started</span>
+                               <span class="post-card-tags">Getting started</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Logic</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Welcome to Ghost</h2>
+                    <h2 class="post-card-title">The Rules of Inference</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Hey! Welcome to Ghost, it’s great to have you :) We know that first impressions are important, so we’ve populated your new site with some initial Getting Started posts that will help you</p>
+                    <p>Simple binary operators aren’t a structure powerful enough to define rules of reasoning. This is where rules of inference come into play. They are forms of reasoning that we can prove to be</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="/ASARPhiB/assets/images/jonathanBennett980_profilePicture.jpg" alt="Jonathan Bennett" />
                         
                         <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/the-editor">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/writing.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/the-editor">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Using the Ghost editor</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/using-tags">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/tags.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/using-tags">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Organising your content with tags</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Ghost has a single, powerful organisational taxonomy, called tags. It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/managing-users">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/team.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/managing-users">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Managing Ghost users</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Ghost has a number of different user roles for your team Authors The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/private-sites">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/locked.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/private-sites">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Making your site private</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/advanced-markdown">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/advanced.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/advanced-markdown">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Advanced Markdown tips</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/themes">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/design.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/themes">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Getting started</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Setting up your own Ghost theme</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Creating a totally custom design for your publication Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/ghost.png" alt="Ghost" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/ghost/">Ghost</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/the-businessman-and-fisherman">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/water.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/the-businessman-and-fisherman">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Fables</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">The Businessman & The Fisherman</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/hannah.jpg" alt="Hannah Wolfe" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/hannah/">Hannah Wolfe</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/a-full-and-comprehensive-style-test">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/bear.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/a-full-and-comprehensive-style-test">
-                <header class="post-card-header">
-                    
-
-                    <h2 class="post-card-title">A Full and Comprehensive Style Test</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs. Heading 1 Heading 2 Heading 3 Heading 4 Heading</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/john.jpg" alt="John O'Nolan" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/john/">John O'Nolan</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/i-have-a-dream">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/sky.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/i-have-a-dream">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Speeches</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">I Have a Dream</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation. Five score years ago, a great</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/martin.jpg" alt="Martin Luther King" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/martin/">Martin Luther King</a>
+                            <a href="/ASARPhiB/author/JonathanBennett980/">Jonathan Bennett</a>
                         </span>
                     
                 
@@ -639,47 +182,39 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/ASARPhiB/the-purpose-of-education">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/grapes.jpg)"></div>
+            <a class="post-card-image-link" href="/ASARPhiB/boolean-algebra">
+                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/posts/Icelandic_Roads_Faded_26.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/the-purpose-of-education">
+            <a class="post-card-content-link" href="/ASARPhiB/boolean-algebra">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Speeches</span>
+                               <span class="post-card-tags">Getting started</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Logic</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">The Purpose of Education</h2>
+                    <h2 class="post-card-title">Boolean Algebra</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren”</p>
+                    <p>Binary operators are simple. Nevertheless some non-trivial rules can be applied to them to make appear some other forms of an identical expression which allows us, for example, to make simplifications. This article</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
                         
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/martin.jpg" alt="Martin Luther King" />
+                        <img class="author-profile-image" src="/ASARPhiB/assets/images/jonathanBennett980_profilePicture.jpg" alt="Jonathan Bennett" />
                         
                         <span class="post-card-author">
-                            <a href="/ASARPhiB/author/martin/">Martin Luther King</a>
+                            <a href="/ASARPhiB/author/JonathanBennett980/">Jonathan Bennett</a>
                         </span>
                     
                 
@@ -689,48 +224,40 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/ASARPhiB/out-to-sea">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/waves.jpg)"></div>
+            <a class="post-card-image-link" href="/ASARPhiB/complex-boolean-operators">
+                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/posts/Icelandic_Roads_Faded_22.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/out-to-sea">
+            <a class="post-card-content-link" href="/ASARPhiB/complex-boolean-operators">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Fiction</span>
+                               <span class="post-card-tags">Getting started</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Logic</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Out to Sea</h2>
+                    <h2 class="post-card-title">"Complex" Boolean Operators</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of an old vintage upon the narrator for</p>
+                    <p>The boolean operators negation, AND and OR suffice to represent all expressions. However, it might some time be easier to define a few more operators for the sake of simplicity. In this article,</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
                         
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/edgar.gif" alt="Edgar Rice Burroughs" />
+                        <img class="author-profile-image" src="/ASARPhiB/assets/images/jonathanBennett980_profilePicture.jpg" alt="Jonathan Bennett" />
                         
                         <span class="post-card-author">
-                            <a href="/ASARPhiB/author/edgar/">Edgar Rice Burroughs</a>
+                            <a href="/ASARPhiB/author/JonathanBennett980/">Jonathan Bennett</a>
                         </span>
-                    
-                
                     
                 
             </footer>
@@ -739,142 +266,40 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/ASARPhiB/looking-glass-house">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/summit.jpg)"></div>
+            <a class="post-card-image-link" href="/ASARPhiB/intro-to-boolean-logic">
+                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/posts/Icelandic_Roads_Faded_9.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/looking-glass-house">
+            <a class="post-card-content-link" href="/ASARPhiB/intro-to-boolean-logic">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Fiction</span>
+                               <span class="post-card-tags">Getting started</span>
+                            
+                        
+                            
+                                <span class="post-card-tags">Logic</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Looking-Glass house</h2>
+                    <h2 class="post-card-title">An Introduction to Boolean Logic</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>One thing was certain, that the white kitten had had nothing to do with it:— it was the black kitten’s fault entirely. For the white kitten had been having its face washed by</p>
+                    <p>A strong and correct reasoning must, at the very least, be rooted in a rock solid logic. This article tries to explain the basics of the boolean logic, one of the most commonly</p>
                 </section>
             </a>
             <footer class="post-card-meta">
                 
                     
-                
-                    
-                
-                    
-                
-                    
                         
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/lewis.jpeg" alt="Lewis Carroll" />
+                        <img class="author-profile-image" src="/ASARPhiB/assets/images/jonathanBennett980_profilePicture.jpg" alt="Jonathan Bennett" />
                         
                         <span class="post-card-author">
-                            <a href="/ASARPhiB/author/lewis/">Lewis Carroll</a>
+                            <a href="/ASARPhiB/author/JonathanBennett980/">Jonathan Bennett</a>
                         </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/down-the-rabbit-hole">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/piano.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/down-the-rabbit-hole">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Fiction</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Down The Rabbit Hole</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/lewis.jpeg" alt="Lewis Carroll" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/lewis/">Lewis Carroll</a>
-                        </span>
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/ASARPhiB/gettysburg-address">
-                <div class="post-card-image" style="background-image: url(/ASARPhiB/assets/images/bus.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/ASARPhiB/gettysburg-address">
-                <header class="post-card-header">
-                    
-
-                    <h2 class="post-card-title">Gettysburg Address</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged</p>
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                        <img class="author-profile-image" src="/ASARPhiB/assets/images/abraham.jpg" alt="Abraham Lincoln" />
-                        
-                        <span class="post-card-author">
-                            <a href="/ASARPhiB/author/abraham/">Abraham Lincoln</a>
-                        </span>
-                    
-                
-                    
-                
                     
                 
             </footer>
@@ -894,14 +319,14 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/ASARPhiB/">Ghost</a> &copy; 2018</section>
+                <section class="copyright"><a href="http://localhost:4000/ASARPhiB/">ASARPhiB</a> &copy; 2018</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/myJekyll/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
                 <nav class="site-footer-nav">
                     <a href="/ASARPhiB/">Latest Posts</a>
-                    <a href="https://facebook.com/ghost" target="_blank" rel="noopener">Facebook</a>
-                    <a href="https://twitter.com/tryghost" target="_blank" rel="noopener">Twitter</a>
+                    
+                    
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
                 </nav>
             </div>
@@ -915,19 +340,36 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                    <img class="subscribe-overlay-logo" src="/ASARPhiB/assets/images/blog-icon.png" alt="Ghost" />
+                    <img class="subscribe-overlay-logo" src="/ASARPhiB/assets/images/ASARPhiB_banner.png" alt="ASARPhiB" />
                 
-                <h1 class="subscribe-overlay-title">Subscribe to Ghost</h1>
+                <h1 class="subscribe-overlay-title">Subscribe to ASARPhiB</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
-    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
-
-    <div class="form-group">
-        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+                
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+  <form action="https://github.us17.list-manage.com/subscribe/post?u=bb173ee4d6761c999733a0cf3&amp;id=cce50dc045" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <div class="mc-field-group form-group" style="display: inline-block;">
+        <input type="email" value="" name="EMAIL" class="required email subscribe-email" id="mce-EMAIL" placeholder="youremail@example.com" />
+      </div>
+      <button class="" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class=""><span>Subscribe</span></button>
+      <!-- Do not remove this or risk form bot signups-->
+      <span style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bb173ee4d6761c999733a0cf3_cce50dc045" tabindex="-1" value=""></span>
     </div>
-    <button class="" type="submit" disabled><span>Subscribe</span></button>
-    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
-</form>
+  </form>
+</div>
+
+<!--End mc_embed_signup-->
 
             </div>
         </div>
@@ -956,20 +398,6 @@ into the {body} of the default.hbs template -->
     <!-- /endif -->
 
     
-
-
-    <!-- Add Google Analytics  -->
-    <!-- Google Analytics Tracking code -->
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-69281367-1', 'auto');
-  ga('send', 'pageview');
-
- </script>
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->

@@ -164,7 +164,7 @@ body {
 }
 
 .site-logo {
-    max-height: 45px;
+    max-width: 300px;
 }
 
 .site-description {
@@ -1039,7 +1039,8 @@ Usage (In Ghost editor):
     padding: 6.5vw 7vw 7vw;
     border: color(var(--whitegrey) l(+2%)) 1px solid;
     text-align: center;
-    background: color(var(--whitegrey) l(+4%));
+    background-image: url(/ASARPhiB/assets/images/subscribe/subscribe.jpeg);
+    background-size: cover;
     border-radius: 7px;
 }
 

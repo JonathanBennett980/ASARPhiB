@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>http://localhost:4000/ASARPhiB/</title>
+   
+   <link>http://localhost:4000/ASARPhiB/</link>
+   <description>ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small></description>
+   <language>en-us</language>
+   
+      
+            
+               
+               
+                  <managingEditor>Jonathan Bennett</managingEditor>
+            
+      
+   
+   <title>
+   <![CDATA[ Jonathan Bennett - ASARPhiB ]]>
+   </title>
+   <description>
+   <![CDATA[ ASARPhiB: Simple Almost Rigorous Philosophical Blog<br /><small>Or just a hASARdous Philosophical Blog</small> ]]>
+   </description>
+   <link>http://localhost:4000/ASARPhiB/</link>
+   <image>
+   <url>http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_logo.svg.png</url>
+   <title>Jonathan Bennett - ASARPhiB</title>
+   <link>http://localhost:4000/ASARPhiB/</link>
+   </image>
+   <generator>Jekyll 3.6.2</generator>
+   <lastBuildDate></lastBuildDate>
+   <atom:link href="http://localhost:4000/ASARPhiB/author/JonathanBennett980/rss.xml" rel="self" type="application/rss+xml"/>
+   <ttl>60</ttl>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Boolean Algebra</title>
+	  <link>http://localhost:4000/ASARPhiB/boolean-algebra</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-02-10T19:39:00+01:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/boolean-algebra</guid>
+	  <description><![CDATA[
+	     <p>Binary operators are simple.
+Nevertheless some non-trivial rules can be applied to them to make appear some other forms of an identical expression which allows us, for example, to make simplifications.</p>
+
+<p>This article is the third article in a series of four:</p>
+<ol>
+  <li><a href="/ASARPhiB//intro-to-boolean-logic">Boolean Logic</a></li>
+  <li><a href="/ASARPhiB//complex-boolean-operators">“Complex” Boolean Operators</a></li>
+  <li><a href="/ASARPhiB//boolean-algebra">Boolean Algebra</a></li>
+  <li><a href="/ASARPhiB//rules-of-inference">Rules of Inference</a></li>
+</ol>
+
+<h1 id="negation-of-a-negation">Negation of a Negation</h1>
+
+<p>This rule is trivially proven by computing the truthtable of each expression.</p>
+
+<script type="math/tex; mode=display">\neg (\neg P) \leftrightarrow P</script>
+
+<h1 id="de-morgan-laws">De Morgan Laws</h1>
+
+<p>The De Morgan Laws state the following:</p>
+
+<p><script type="math/tex">\neg(A \vee B) \leftrightarrow \bar A \wedge  \bar B</script>
+and
+<script type="math/tex">\neg (A \wedge B) \leftrightarrow \bar A \vee  \bar B</script></p>
+
+<p>One can see this is true by putting side-to-side the thruthtables of the expressions on each side of the equivalence.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( A \vee B \)</th>
+      <th>\( \bar A \)</th>
+      <th>\( \bar B \)</th>
+      <th>\( \bar A \wedge \bar B \)</th>
+      <th>\(\neg(\bar A \wedge \bar B)\)</th>
+      <th>\(A \vee B \leftrightarrow \neg(\bar A \wedge  \bar B)\)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="if-then-equivalence">If Then Equivalence</h1>
+
+<p>We also pretend \( A \rightarrow B \leftrightarrow \neg A \vee B \).
+Again, this can be demonstrated by putting the thruthtables side-to-side.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( A \rightarrow B \)</th>
+      <th>\( \neg A \)</th>
+      <th>\( \neg A \vee B \)</th>
+      <th>\( A \rightarrow B \leftrightarrow \neg A \vee B \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="equivalence-equivalent-expression">Equivalence Equivalent Expression</h1>
+
+<p>We give this last equivalence without proof, but it can easily be proved by a truthtable or by looking at the definition of the <em>equivalence</em> operator:</p>
+
+<script type="math/tex; mode=display">A \leftrightarrow B \equiv (A \wedge B) \vee (\bar A \wedge \bar B)</script>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>With these simple rules of boolean algebra, we are now ready to prove what correct forms of reasoning are.
+This will be the topic of the next article: <a href="/ASARPhiB//rules-of-inference">Rules of Inference</a>.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The Rules of Inference</title>
+	  <link>http://localhost:4000/ASARPhiB/rules-of-inference</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-02-10T19:39:00+01:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/rules-of-inference</guid>
+	  <description><![CDATA[
+	     <p>Simple binary operators aren’t a structure powerful enough to define rules of reasoning.
+This is where rules of inference come into play.
+They are forms of reasoning that we can prove to be correct.
+Let’s discover a few of them.</p>
+
+<p>This article is the fourth in a series of four:</p>
+<ol>
+  <li><a href="/ASARPhiB//intro-to-boolean-logic">Boolean Logic</a></li>
+  <li><a href="/ASARPhiB//complex-boolean-operators">“Complex” Boolean Operators</a></li>
+  <li><a href="/ASARPhiB//boolean-algebra">Boolean Algebra</a></li>
+  <li><a href="/ASARPhiB//rules-of-inference">Rules of Inference</a></li>
+</ol>
+
+<h1 id="rules-of-inference">Rules of Inference</h1>
+
+<p>The general idea is the following: some propositions \( P_1 \), …, \( P_n \) are assumed to be true and one shows that accepting those propositions logically (in the sense of boolean logic) leads to saying that a conclusion proposition \( P_c \) must also be true.</p>
+
+<p>\( P_1 \) to \( P_n \) are called the premises.
+ \( P_c \) is called the conclusion.</p>
+
+<p>There are quite many rules of inferences, here I will only cite the most useful ones.
+Note that the rules of inferences do <em>not</em> concern themselves with the truth of the premises.
+They are only used to deduce conclusions <em>when we assume the premises to be true</em>.</p>
+
+<h2 id="modus-ponens">Modus Ponens</h2>
+
+<script type="math/tex; mode=display">(P \wedge (P\rightarrow Q)) \rightarrow Q \leftrightarrow \text{true}</script>
+
+<p>This form of argumentation is based on two premises:</p>
+<ul>
+  <li>\( P\rightarrow Q \) (The proposition “if \( P \) is true, then \( Q \) is true” is true)</li>
+  <li>\( P \) ( \( P \) is true)</li>
+</ul>
+
+<p>From this, we can conclude that \( Q \) is true.</p>
+
+<p>Example:</p>
+<ul>
+  <li>If you are rich, then you are beautiful</li>
+  <li>You are rich</li>
+</ul>
+
+<p>It follows logically that you are beautiful!</p>
+
+<p>It is possible to prove these rules using the boolean algebra defined in a <a href="/ASARPhiB//intro-to-boolean-logic">previous article</a>.
+The proof for this rule of inference is given thereafter.
+The proofs for the others rules of inference will not be given.
+One can find them online or derive them using boolean algebra.</p>
+
+<p>This is proof is given for the sake of example but is not explained in detailed:
+<script type="math/tex">% <![CDATA[
+\begin{aligned}
+(P \wedge (P \rightarrow Q)) \rightarrow Q &\leftrightarrow \neg (P \wedge (P \rightarrow Q)) \vee Q\\
+  & \leftrightarrow (\bar P \vee \neg (P \rightarrow Q)) \vee Q\\
+  & \leftrightarrow (\bar P \vee (P \wedge \bar Q)) \vee Q\\
+  & \leftrightarrow (\bar P \wedge (Q \vee \bar Q)) \vee (P \wedge \bar Q) \vee (Q \wedge (P \vee \bar P))\\
+  & \leftrightarrow (\bar P \wedge Q) \vee (\bar P \wedge \bar Q) \vee (P\wedge Q) \vee (\bar P \wedge Q)\\
+  & \leftrightarrow \text{True}
+\end{aligned} %]]></script></p>
+
+<h2 id="modus-tolens">Modus Tolens</h2>
+
+<script type="math/tex; mode=display">(\neg Q \wedge (P\rightarrow Q)) \rightarrow \neg P \leftrightarrow \text{true}</script>
+
+<p>This form of argumentation is based on two premises:</p>
+<ul>
+  <li>\( P\rightarrow Q \) (The proposition “if \( P \) is true, then \( Q \) is true” is true)</li>
+  <li>\( \neg Q \) ( \( Q \) is false)</li>
+</ul>
+
+<p>From this, we can conclude that \( P \) is false.</p>
+
+<p>Example:</p>
+<ul>
+  <li>If you are rich, then you are beautiful</li>
+  <li>You are not beautiful</li>
+</ul>
+
+<p>It follows logically that you are not rich!</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<h2 id="on-rules-of-inference">On Rules of Inference</h2>
+
+<p>There exist a few more rules of inference.
+They can also be extended to use the mathematical symbols <script type="math/tex">\forall</script> (for all) and <script type="math/tex">\exists</script> (it exists).
+More informations about them can be found on <a href="https://en.wikipedia.org/wiki/List_of_rules_of_inference">Wikipedia</a>.</p>
+
+<p>I will try, in this blog, to be almost rigorous in the philosophical points I want to make; i.e. formulate them with rules of inference.</p>
+
+<h2 id="on-philosophy">On Philosophy</h2>
+
+<p>We saw that rules of inference only concern themselves with the articulation one can formulate between premises to deduce a conclusion.
+So the whole debate is now shifted toward finding the correct premises or toward finding premises that can be accepted by everyone.</p>
+
+<p>The conclusions will logically follow.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>"Complex" Boolean Operators</title>
+	  <link>http://localhost:4000/ASARPhiB/complex-boolean-operators</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-02-10T19:34:00+01:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/complex-boolean-operators</guid>
+	  <description><![CDATA[
+	     <p>The boolean operators <em>negation</em>, <em>AND</em> and <em>OR</em> suffice to represent all expressions.
+However, it might some time be easier to define a few more operators for the sake of simplicity.
+In this article, I will cover the <em>if then</em> and <em>equivalence</em> operators.</p>
+
+<p>This article is the second article in a series of four:</p>
+<ol>
+  <li><a href="/ASARPhiB//intro-to-boolean-logic">Boolean Logic</a></li>
+  <li><a href="/ASARPhiB//complex-boolean-operators">“Complex” Boolean Operators</a></li>
+  <li><a href="/ASARPhiB//boolean-algebra">Boolean Algebra</a></li>
+  <li><a href="/ASARPhiB//rules-of-inference">Rules of Inference</a></li>
+</ol>
+
+<h1 id="two-more-binary-operators">Two More Binary Operators</h1>
+
+<h2 id="implies-if--then-">Implies (if … then …)</h2>
+
+<p>Let’s define the implication operator \( \rightarrow \).
+It is a binary operator with the following truthtable:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( C = A \rightarrow B \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We remark that \( C \) is false only when \( A \) is true and \( B \) is false.</p>
+
+<p>I pretend that this operator is equivalent to saying “if A, then B”.</p>
+
+<p>Let us define three propositions:</p>
+
+<p>\( A \) = “I am elected maire”</p>
+
+<p>\( B \) = “I increase taxes”</p>
+
+<p>\( C \) = \( A \rightarrow B \)</p>
+
+<p>I will now try to prove that this is the same as the sentence “If I am elected maire, then I will increase the taxes”.</p>
+
+<p>Imagine a politician P, saying “If I am elected maire, then I will increase the taxes”.
+If P is elected and he/she raises the taxes then he did not lie and C is true.
+If P is elected but he/she does not increase the taxes, then he/she lied and the proposition was in fact false.
+If P is not elected, then he/she said the truth when saying that if he/she got elected, he/she would raise the taxes in the sense that the person did not lie.
+We see the exact same values in the truthtable of the implication operator.</p>
+
+<h2 id="equivalence">Equivalence</h2>
+
+<p>Let us finally define the binary operator equivalence represented with the symbol \( \leftrightarrow \) with the following truthtable:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( A \leftrightarrow B \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I pretend that the equivalence operator applied to two propositions is equivalent to saying that two propositions are equivalent.
+This comes from the fact that for two propositions to be equivalent, they need, for any given input, to be either both true or both false, but they cannot have different values.
+One can remark that this is exactly what the truthtable says.</p>
+
+<h2 id="extended-precedence-rules">Extended Precedence Rules</h2>
+
+<p>We already saw the rules of precedence for the <em>negation</em>, <em>AND</em> and <em>OR</em> operators.
+We now complete those rules with the two newly defined operators.</p>
+
+<ol>
+  <li>Negation</li>
+  <li>AND</li>
+  <li>OR</li>
+  <li>Implication</li>
+  <li>Equivalence</li>
+</ol>
+
+<h2 id="more-binary-operators">More binary operators</h2>
+
+<p>There exists many more binary operators (XOR, XAND, etc) but the ones above are generally enough.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>With those tools in hand, we are ready to discover some simple rules of algebra that govern the world of logic and that we will later use to prove what a correct reasoning is.
+Simple rules of algebra will be the topic of the next article: <a href="/ASARPhiB//boolean-algebra">Boolean Algebra</a>
+.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>An Introduction to Boolean Logic</title>
+	  <link>http://localhost:4000/ASARPhiB/intro-to-boolean-logic</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-01-27T16:27:00+01:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/intro-to-boolean-logic</guid>
+	  <description><![CDATA[
+	     <p>A strong and correct reasoning must, at the very least, be rooted in a rock solid logic.
+This article tries to explain the basics of the boolean logic, one of the most commonly used logic in mathematics.</p>
+
+<p>It is the first article in a series of four:</p>
+<ol>
+  <li><a href="/ASARPhiB//intro-to-boolean-logic">Boolean Logic</a></li>
+  <li><a href="/ASARPhiB//complex-boolean-operators">“Complex” Boolean Operators</a></li>
+  <li><a href="/ASARPhiB//boolean-algebra">Boolean Algebra</a></li>
+  <li><a href="/ASARPhiB//rules-of-inference">Rules of Inference</a></li>
+</ol>
+
+<p>The final goal of this series is to derive the so-called rules of inference that are rules to apply for correct reasoning.</p>
+
+<h1 id="some-definitions">Some Definitions</h1>
+
+<h2 id="proposition">Proposition</h2>
+
+<dl>
+  <dt>Proposition</dt>
+  <dd>Let’s define a <em>proposition</em> \( P \) as a sentence that can either be <em>true</em> or <em>false</em>, and nothing else (law of excluded middle).</dd>
+</dl>
+
+<p><em>Example: \( P \) = “It is snowing”</em></p>
+
+<p><em>Remark: Some might argue that, in real life, a perfect binarity most often doesn’t exist.
+It is more likely that a property can take a value in a gradient of possible values.
+I totally agree with this point of view.
+But I think it is still possible to define propositions that are either true or false but nothing else, by considering ranges of values.</em></p>
+
+<p><em>For example, assume I define \( P \) as “X has brown hair”.
+X might have dark brow hair, or aubrun hair…
+Is \( P \) true or false then?
+One possible solution is to better define the proposition \( P \) as “X has hair that are brown or darker”.</em></p>
+
+<h2 id="compound-proposition">Compound Proposition</h2>
+
+<dl>
+  <dt>Compound Proposition</dt>
+  <dd>I now define a <em>compound proposition</em> as a proposition that is defined by relationships between other propositions.
+I will call the other propositions <em>input propositions</em>.
+The relationships are defined using <em>operators</em>.
+We will see a few of them below.</dd>
+  <dt>Truthtable</dt>
+  <dd>Let’s also define the <em>truthtable</em> of a compound proposition as a table showing all the possible values that the input propositions can take and the value that the compound proposition take given the values of the input propositions.
+For conciseness, <em>true</em> will be written <code class="highlighter-rouge">T</code> and <em>false</em> will be written <code class="highlighter-rouge">F</code> inside truthtables.</dd>
+</dl>
+
+<p>To create a compound proposition, one must link or combine one or more propositions together.
+To combine propositions one uses so-called operators, they simply represent the kind of relationship there is between two propositions.</p>
+
+<p>I will now define a few ways to combine propositions using unary and binary operators (operators that are applied on a single proposition or two propositions respectively).</p>
+
+<h1 id="operators">Operators</h1>
+
+<h2 id="negation">Negation</h2>
+
+<p>Let’s define a unary operation on a proposition called the negation of a proposition in the following way, the negation of a proposition that is <em>true</em> will yield <em>false</em>, the negation of a proposition that is <em>false</em> will yield <em>true</em>.
+The negation of a proposition \( P \) is represented in the following way: \( \neg P \).
+A second way to represent the negation of \( P \) is \( \bar P \).
+I will use one or the other depending on which is more comfortable to read in a given context.</p>
+
+<p>Here is the truthtable of the negation operation:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( P \)</th>
+      <th>\( \bar{P} \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I will now try to show that the negation operation corresponds to the negation as we understand it in the english language.</p>
+
+<p>Let me define \( P \) as “It is snowing”.
+This can either be <em>true</em> or <em>false</em>.
+Let me also remark that \( P \) yields <em>true</em> when it is snowing and <em>false</em> otherwise.</p>
+
+<p>I pretend that the negation of a proposition is equivalent to the negation of the sentence that the proposition represent.
+I am not sure if it is even possible to make a rigorous proof of this.
+I can only hope that the following example convinces you, that you find it obvious enough or that someone propose us a proper proof of it.
+This remark is valid for all following operators where I try to show the correspondences to the human language.</p>
+
+<p>We now consider \( \bar{P} \).
+By the definition of the negation operator, \( \bar{P} \) will yield <em>false</em> when it snows and <em>true</em> when it is not snowing.
+This is equivalent to the proposition “It is not snowing” because it yield <em>true</em> when it is not snowing and <em>false</em> when it is snowing.</p>
+
+<p><strong>Axiom</strong>: For a proposition defined as a sentence, the negation operation on the proposition is the same as the negation as we understand it in the English language of the sentence.</p>
+
+<h2 id="and">AND</h2>
+
+<p>Let me represent the AND operator with the following symbol: \( \wedge \).
+The AND-composition of two propositions \( A \) and \( B \) is then represented the following way: \( A \wedge B \)</p>
+
+<p>Furthermore, I define the truthtable of the AND-operator as follow:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( A\wedge B \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In other words, \( A \wedge B \) is true if and only if \( A \) is true and \( B \) is true simultaneously.</p>
+
+<p>I pretend that the AND operator on two propositions \( A \) and \( B \) is equivalent to saying “A and B” as we understand it in the English language.</p>
+
+<p>Let’s consider the following propositions:</p>
+
+<p>\( A \) = “I have brown eyes”</p>
+
+<p>\( B \) = “I possess a car”</p>
+
+<p>\( C \) = \( A \wedge B \)</p>
+
+<p>We see that C, by the definition of the AND operator is only true if both \( A \) and \( B \) are true simultaneously.
+We can also remark that the same reasoning applies in English: For us not to be liars when we say “I have brown eyes and I possess a car”, then we must both have brown eyes and possess a car.</p>
+
+<p><strong>Axiom</strong>: The AND operator applied on two propositions \( A \), \( B \) is equivalent to saying “\( A \) and \( B \)” as we understand it in English.</p>
+
+<h2 id="or">OR</h2>
+
+<p>Let me define the OR operator as being false only if both \( A \) and \( B \) are false simultaneously.
+I also define the following notation to represent it: \( A \vee B \).</p>
+
+<p>Here is the truthtable of the OR operator:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>\( A \)</th>
+      <th>\( B \)</th>
+      <th>\( A \vee B \)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Remark: the OR operator does not correspond to the English “or”.
+Let’s remark that when someone says “I can have an apple or a banana”, what is meant is that the person can have <em>either</em> an apple or a banana, but not both.
+The OR operator would mean that you can have one or both.</p>
+
+<p>We pretend that the OR operator is equivalent to saying “A or B or both”.</p>
+
+<h2 id="precedence-rules">Precedence Rules</h2>
+
+<p>For complex expressions involving many operators, we need to know in which order the operators are to be applied.</p>
+
+<p>We arbitrarily define the following order:</p>
+
+<ol>
+  <li>Negation</li>
+  <li>AND</li>
+  <li>OR</li>
+</ol>
+
+<p>We will use parenthesis to modify the order in which to apply the operators, in the following way: the operators inside a parenthesis should be applied before the operators outside of the parenthesis.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>These only three operators are enough for all the boolean logic.
+They allow us to represent every possible operation on any number of input variables.
+However, for the sake of brevity and simplicity, it is often preferable to define some more operators; two, in fact, that also have meaning in the spoken language.
+This will be the topic of the next article: <a href="/ASARPhiB//complex-boolean-operators">Complex Boolean Operators</a></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
