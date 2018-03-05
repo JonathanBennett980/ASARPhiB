@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>The Open (Source), a Revolution</title>
+        
+          <description>&lt;p&gt;The open source movement is an alternative way of working and cooperating that could very well change our society.
+It is based on cooperation instead of exchanges and is already a standard in the digital world.
+But many applications of it are possible especially in the real world.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 04 Mar 2018 12:34:00 +0000</pubDate>
+        <link>
+        http://localhost:4000/open-source</link>
+        <guid isPermaLink="true">http://localhost:4000/open-source</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>The Rules of Inference</title>
         
           <description>&lt;p&gt;Simple binary operators aren’t a structure powerful enough to define rules of reasoning.

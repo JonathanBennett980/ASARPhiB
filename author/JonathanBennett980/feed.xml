@@ -36,6 +36,93 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>The Open (Source), a Revolution</title>
+	  <link>http://localhost:4000/ASARPhiB/open-source</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-03-04T13:34:00+01:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/open-source</guid>
+	  <description><![CDATA[
+	     <p>The open source movement is an alternative way of working and cooperating that could very well change our society.
+It is based on cooperation instead of exchanges and is already a standard in the digital world.
+But many applications of it are possible especially in the real world.</p>
+
+<h1 id="the-open-source-a-revolution">The Open (Source), a Revolution</h1>
+
+<h2 id="back-to-the-origins-the-open-source-movement">Back to the Origins: The Open Source Movement</h2>
+
+<h3 id="a-quick-definition-of-open-source">A Quick Definition of Open Source</h3>
+
+<p>An open source software must provide the four following liberties:</p>
+<ol>
+  <li>The liberty to use the software</li>
+  <li>The liberty to view the source code (useful if you want to learn how to code for example)</li>
+  <li>The liberty to modify the code (so that you can take a program and modifz it in order to make it match your exact needs)</li>
+  <li>The liberty to distribute your modified version of the code</li>
+</ol>
+
+<h2 id="the-main-characteristic-of-open-source">The Main Characteristic of Open Source</h2>
+
+<p>The whole idea behind open source software is that a program should rely on a community of users and programmers.
+This community can then propose changes, implement them and make them available to all!
+Bz doing that you give the control back to the persons that use the software.
+That way, you are certain that the software corresponds to the needs of the persons using it.
+And if the community is big enough it also ensure great quality of code, a lot of support provided by more experienced user to least experienced ones, rapid improvements and adaptation to newer needs, etc.</p>
+
+<p>In a somewhat broader sense, one could consider an open source software as simply a cooperation between human beings.
+By improving the program, you will not gain money but you will be cooperating with humanity.</p>
+
+<h2 id="examples-of-open-source-software">Examples of Open Source Software</h2>
+
+<p>Open source software are everywhere.
+Here are a few examples:</p>
+<ul>
+  <li>The linux operating system</li>
+  <li>The android operating system</li>
+  <li>Firefox</li>
+  <li>LibreOffice</li>
+  <li>Gimp (used for photo editing)</li>
+  <li>Blender (to create animated movies)</li>
+  <li>etc.</li>
+</ul>
+
+<p>In fact, at least 70% of the Internet is run by open source software (the vast majority of the computers powering Internet run Linux as operating system, most of the web server like Apache are open source, most of the protocols on the internet are open source, etc.).
+Almost all programming languages are open source too.</p>
+
+<p>Amongst non-open source software, one can find: The Apple ecosystem (iOs, Pages, Keynote, etc.), the Microsoft ecosystem (Windows, Microsoft Office, etc), the Adobe ecosystem (Photoshop, InDesign, etc.).</p>
+
+<h2 id="fine-but-why-should-i-care">Fine, But Why Should I Care?</h2>
+
+<p>Open source software is probably of little concern for you, but the ideas it conveys certainly are not!</p>
+
+<p>From the open source originated a lot of other open movements like:</p>
+<ul>
+  <li>Open Hardware (Arduino and RaspberryPi for example)</li>
+  <li>Open Beer (open beer receipes)</li>
+  <li>Open Data (data available to all online to easily make statistics or researches)</li>
+  <li>Open Science</li>
+  <li>Open Government</li>
+</ul>
+
+<h3 id="a-revolution">A Revolution</h3>
+
+<p>I believe that all those movements will transform our society in a very profound manner.
+They highlight the fact that cooperation is a possible alternative to our system based on exchanges (can you imagine a world without money? Well, the people that created the open source apparently could!).
+And with the rise of new technologies like the Internet, open alternative will be easier and easier to put in place.</p>
+
+<p>For example, Open Government is a way of implying the people living in a society in their governance.
+The idea is to facilitate the communication between the government and the people: more transparency from the government to the society, more inputs from the people to the government, etc.
+This could simplify the democratic process and even increase it.</p>
+
+<p>All in all I strongly hope that open source will impose itself and maybe even change our society!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Boolean Algebra</title>
 	  <link>http://localhost:4000/ASARPhiB/boolean-algebra</link>
 		
