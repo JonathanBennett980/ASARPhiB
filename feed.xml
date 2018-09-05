@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/ASARPhiB/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ASARPhiB/" rel="alternate" type="text/html" /><updated>2018-05-20T18:31:20+02:00</updated><id>http://localhost:4000/ASARPhiB/</id><title type="html">ASARPhiB</title><subtitle>ASARPhiB: Simple Almost Rigorous Philosophical Blog&lt;br /&gt;&lt;small&gt;Or just a hASARdous Philosophical Blog&lt;/small&gt;</subtitle><entry><title type="html">Why Changing Matters?</title><link href="http://localhost:4000/ASARPhiB/why-changing-matters" rel="alternate" type="text/html" title="Why Changing Matters?" /><published>2018-05-20T08:10:00+02:00</published><updated>2018-05-20T08:10:00+02:00</updated><id>http://localhost:4000/ASARPhiB/why-changing-matters</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/why-changing-matters">&lt;p&gt;We live in a very peculiar time, one of technologies, of increasing speed, of ever evolving theories and concepts.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/ASARPhiB/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ASARPhiB/" rel="alternate" type="text/html" /><updated>2018-09-05T08:34:39-04:00</updated><id>http://localhost:4000/ASARPhiB/</id><title type="html">ASARPhiB</title><subtitle>ASARPhiB: Simple Almost Rigorous Philosophical Blog&lt;br /&gt;&lt;small&gt;Or just a hASARdous Philosophical Blog&lt;/small&gt;</subtitle><entry><title type="html">Open Government</title><link href="http://localhost:4000/ASARPhiB/open-government" rel="alternate" type="text/html" title="Open Government" /><published>2018-09-03T17:30:00-04:00</published><updated>2018-09-03T17:30:00-04:00</updated><id>http://localhost:4000/ASARPhiB/open-government</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/open-government">&lt;p&gt;“Democracy” initially stands for: the power to the people.
+Do you feel like you are in control?
+If you answered no, learn what Open Government is and why we should adopt it !&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Most of the modern democracies are in fact some form of &lt;em&gt;representative&lt;/em&gt; democracies.
+Meaning that the people elects representatives that will then rule the country by creating, applying and interpreting laws.
+This leads to situation where the people actually express its will only by electing representatives, so approximately once per year.&lt;/p&gt;
+
+&lt;p&gt;Now, why wouldn’t we form some &lt;em&gt;direct&lt;/em&gt; democracies ?
+The main argument, few centuries ago, was that it was not possible to manage a whole population voting on each issue.
+And this was fine then.
+But is it now ?&lt;/p&gt;
+
+&lt;h1 id=&quot;opinion-and-argumentation&quot;&gt;Opinion and Argumentation&lt;/h1&gt;
+
+&lt;p&gt;In my opinion, of course, it is not: today democracies are obsolete.
+We have the necessary means to create more direct democracies, which I consider better.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-are-more-direct-democracies-better&quot;&gt;Why are more direct democracies better?&lt;/h2&gt;
+
+&lt;p&gt;I consider direct democracies to be better for many reasons and here are a few:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You might agree on most subject with the person you elect to represent you but what about the other subjects ? Wouldn’t it be easier (except for organizational reasons) to represent yourself… well yourself ?&lt;/li&gt;
+  &lt;li&gt;The person you elected to represent you is generally elected for a time span (often a few years). What if that person changes with time ? You cannot tell what he/she will be in 2 or three years.&lt;/li&gt;
+  &lt;li&gt;Most of the politicians come from higher social classes. This is problematic, because the population might not be represented equitably.&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-more-direct-democracies-instead-of-direct-democracies&quot;&gt;Why &lt;em&gt;more&lt;/em&gt; direct democracies instead of direct democracies?&lt;/h2&gt;
+
+&lt;p&gt;In think that specialization, to some extend, is great idea and beneficent tool.
+Following that reasoning, I would say that there are complicated subjects and decisions about those should be delegated to groups of experts specialized in that subject.
+Also, it would be impossible to have the people vote on &lt;em&gt;every&lt;/em&gt; issues a government faces.
+In my view, neither extreme is good and we are at the representative extreme.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-now-&quot;&gt;What Now ?&lt;/h2&gt;
+
+&lt;p&gt;OK, so more direct democracies are probably better.
+What do we do now?&lt;/p&gt;
+
+&lt;h1 id=&quot;wait-for-it-open-government&quot;&gt;Wait for it… Open Government&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/posts/openGovernment-wordCloud.jpg&quot; alt=&quot;Open Government Word Cloud&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;definition&quot;&gt;Definition&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Note: the definition below might not correspond to the generally accepted definition, or put emphasis on different parts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Open Government&lt;/strong&gt;: An Open Source movement that aims to make government data open to the public and to promote civic participation.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-it-could-be&quot;&gt;What it Could Be&lt;/h2&gt;
+
+&lt;p&gt;Imagine that your government creates an app or website which allows you to vote, to obtain official dataset easily, to complete administrative procedures and to report problems (like pothole, broken stuffs, etc.).
+Individuals’ life would be easier, contacts with the government would make society more efficient, resources would be better used and transparency would make it harder for corruption to exist.
+This is what Open Government could look like.&lt;/p&gt;
+
+&lt;p&gt;You can even think it one step further.
+For example, if there existed a platform where you could download governmental dataset, then you could imagine having citizen or universities doing data mining on it to find ways to optimize how resources are used.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-little-example&quot;&gt;A Little Example&lt;/h1&gt;
+
+&lt;p&gt;A few months back, I traveled to Europe.
+During my trip, I visited a few countries, one of which is quite relevant to the thematic at hand: Switzerland.&lt;/p&gt;
+
+&lt;p&gt;This little country has a very peculiar system and the Swiss people &lt;strong&gt;votes on average four times a year on elections but also on policies and so-called initiatives&lt;/strong&gt;.
+My point being: There exists some countries where a more direct democracy is used and it works.
+In fact it works greatly for Switzerland:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Switzerland has a stable, prosperous and high-tech economy and enjoys great wealth, being ranked as the wealthiest country in the world per capita in multiple rankings. &lt;a href=&quot;https://en.wikipedia.org/wiki/Switzerland&quot;&gt;Wikipedia, 04-09-2018&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Jonathan Bennett</name></author><category term="open source" /><summary type="html">“Democracy” initially stands for: the power to the people. Do you feel like you are in control? If you answered no, learn what Open Government is and why we should adopt it !</summary></entry><entry><title type="html">Why Changing Matters?</title><link href="http://localhost:4000/ASARPhiB/why-changing-matters" rel="alternate" type="text/html" title="Why Changing Matters?" /><published>2018-05-20T02:10:00-04:00</published><updated>2018-05-20T02:10:00-04:00</updated><id>http://localhost:4000/ASARPhiB/why-changing-matters</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/why-changing-matters">&lt;p&gt;We live in a very peculiar time, one of technologies, of increasing speed, of ever evolving theories and concepts.
 &lt;em&gt;To survive in such hostile environment, one has to adapt… fast!&lt;/em&gt;
 This often imply learning new things to stay up to date, forging new habits, changing one’s way of thinking, embracing new cultures, etc.&lt;/p&gt;
 
@@ -71,7 +143,7 @@ This is one of the most efficient ways I have ever found to widen or even change
 &lt;ul&gt;
   &lt;li&gt;Try learning to write with the wrong hand&lt;/li&gt;
   &lt;li&gt;Try learning a new language (Italian, Spanish, Portuguese, etc).&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jonathan Bennett</name></author><summary type="html">We live in a very peculiar time, one of technologies, of increasing speed, of ever evolving theories and concepts. To survive in such hostile environment, one has to adapt… fast! This often imply learning new things to stay up to date, forging new habits, changing one’s way of thinking, embracing new cultures, etc.</summary></entry><entry><title type="html">The Open (Source), a Revolution</title><link href="http://localhost:4000/ASARPhiB/open-source" rel="alternate" type="text/html" title="The Open (Source), a Revolution" /><published>2018-03-04T13:34:00+01:00</published><updated>2018-03-04T13:34:00+01:00</updated><id>http://localhost:4000/ASARPhiB/open-source</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/open-source">&lt;p&gt;The open source movement is an alternative way of working and cooperating that could very well change our society.
+&lt;/ul&gt;</content><author><name>Jonathan Bennett</name></author><summary type="html">We live in a very peculiar time, one of technologies, of increasing speed, of ever evolving theories and concepts. To survive in such hostile environment, one has to adapt… fast! This often imply learning new things to stay up to date, forging new habits, changing one’s way of thinking, embracing new cultures, etc.</summary></entry><entry><title type="html">The Open (Source), a Revolution</title><link href="http://localhost:4000/ASARPhiB/open-source" rel="alternate" type="text/html" title="The Open (Source), a Revolution" /><published>2018-03-04T07:34:00-05:00</published><updated>2018-03-04T07:34:00-05:00</updated><id>http://localhost:4000/ASARPhiB/open-source</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/open-source">&lt;p&gt;The open source movement is an alternative way of working and cooperating that could very well change our society.
 It is based on cooperation instead of exchanges and is already a standard in the digital world.
 But many applications of it are possible especially in the real world.&lt;/p&gt;
 
@@ -142,7 +214,7 @@ And with the rise of new technologies like the Internet, open alternative will b
 The idea is to facilitate the communication between the government and the people: more transparency from the government to the society, more inputs from the people to the government, etc.
 This could simplify the democratic process and even increase it.&lt;/p&gt;
 
-&lt;p&gt;All in all I strongly hope that open source will impose itself and maybe even change our society!&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><summary type="html">The open source movement is an alternative way of working and cooperating that could very well change our society. It is based on cooperation instead of exchanges and is already a standard in the digital world. But many applications of it are possible especially in the real world.</summary></entry><entry><title type="html">The Rules of Inference</title><link href="http://localhost:4000/ASARPhiB/rules-of-inference" rel="alternate" type="text/html" title="The Rules of Inference" /><published>2018-02-10T19:39:00+01:00</published><updated>2018-02-10T19:39:00+01:00</updated><id>http://localhost:4000/ASARPhiB/rules-of-inference</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/rules-of-inference">&lt;p&gt;Simple binary operators aren’t a structure powerful enough to define rules of reasoning.
+&lt;p&gt;All in all I strongly hope that open source will impose itself and maybe even change our society!&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="open source" /><summary type="html">The open source movement is an alternative way of working and cooperating that could very well change our society. It is based on cooperation instead of exchanges and is already a standard in the digital world. But many applications of it are possible especially in the real world.</summary></entry><entry><title type="html">The Rules of Inference</title><link href="http://localhost:4000/ASARPhiB/rules-of-inference" rel="alternate" type="text/html" title="The Rules of Inference" /><published>2018-02-10T13:39:00-05:00</published><updated>2018-02-10T13:39:00-05:00</updated><id>http://localhost:4000/ASARPhiB/rules-of-inference</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/rules-of-inference">&lt;p&gt;Simple binary operators aren’t a structure powerful enough to define rules of reasoning.
 This is where rules of inference come into play.
 They are forms of reasoning that we can prove to be correct.
 Let’s discover a few of them.&lt;/p&gt;
@@ -237,7 +309,7 @@ More informations about them can be found on &lt;a href=&quot;https://en.wikiped
 &lt;p&gt;We saw that rules of inference only concern themselves with the articulation one can formulate between premises to deduce a conclusion.
 So the whole debate is now shifted toward finding the correct premises or toward finding premises that can be accepted by everyone.&lt;/p&gt;
 
-&lt;p&gt;The conclusions will logically follow.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">Simple binary operators aren’t a structure powerful enough to define rules of reasoning. This is where rules of inference come into play. They are forms of reasoning that we can prove to be correct. Let’s discover a few of them.</summary></entry><entry><title type="html">Boolean Algebra</title><link href="http://localhost:4000/ASARPhiB/boolean-algebra" rel="alternate" type="text/html" title="Boolean Algebra" /><published>2018-02-10T19:39:00+01:00</published><updated>2018-02-10T19:39:00+01:00</updated><id>http://localhost:4000/ASARPhiB/boolean-algebra</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/boolean-algebra">&lt;p&gt;Binary operators are simple.
+&lt;p&gt;The conclusions will logically follow.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">Simple binary operators aren’t a structure powerful enough to define rules of reasoning. This is where rules of inference come into play. They are forms of reasoning that we can prove to be correct. Let’s discover a few of them.</summary></entry><entry><title type="html">Boolean Algebra</title><link href="http://localhost:4000/ASARPhiB/boolean-algebra" rel="alternate" type="text/html" title="Boolean Algebra" /><published>2018-02-10T13:39:00-05:00</published><updated>2018-02-10T13:39:00-05:00</updated><id>http://localhost:4000/ASARPhiB/boolean-algebra</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/boolean-algebra">&lt;p&gt;Binary operators are simple.
 Nevertheless some non-trivial rules can be applied to them to make appear some other forms of an identical expression which allows us, for example, to make simplifications.&lt;/p&gt;
 
 &lt;p&gt;This article is the third article in a series of four:&lt;/p&gt;
@@ -382,7 +454,7 @@ Again, this can be demonstrated by putting the thruthtables side-to-side.&lt;/p&
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;With these simple rules of boolean algebra, we are now ready to prove what correct forms of reasoning are.
-This will be the topic of the next article: &lt;a href=&quot;/ASARPhiB//rules-of-inference&quot;&gt;Rules of Inference&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">Binary operators are simple. Nevertheless some non-trivial rules can be applied to them to make appear some other forms of an identical expression which allows us, for example, to make simplifications.</summary></entry><entry><title type="html">“Complex” Boolean Operators</title><link href="http://localhost:4000/ASARPhiB/complex-boolean-operators" rel="alternate" type="text/html" title="&quot;Complex&quot; Boolean Operators" /><published>2018-02-10T19:34:00+01:00</published><updated>2018-02-10T19:34:00+01:00</updated><id>http://localhost:4000/ASARPhiB/complex-boolean-operators</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/complex-boolean-operators">&lt;p&gt;The boolean operators &lt;em&gt;negation&lt;/em&gt;, &lt;em&gt;AND&lt;/em&gt; and &lt;em&gt;OR&lt;/em&gt; suffice to represent all expressions.
+This will be the topic of the next article: &lt;a href=&quot;/ASARPhiB//rules-of-inference&quot;&gt;Rules of Inference&lt;/a&gt;.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">Binary operators are simple. Nevertheless some non-trivial rules can be applied to them to make appear some other forms of an identical expression which allows us, for example, to make simplifications.</summary></entry><entry><title type="html">“Complex” Boolean Operators</title><link href="http://localhost:4000/ASARPhiB/complex-boolean-operators" rel="alternate" type="text/html" title="&quot;Complex&quot; Boolean Operators" /><published>2018-02-10T13:34:00-05:00</published><updated>2018-02-10T13:34:00-05:00</updated><id>http://localhost:4000/ASARPhiB/complex-boolean-operators</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/complex-boolean-operators">&lt;p&gt;The boolean operators &lt;em&gt;negation&lt;/em&gt;, &lt;em&gt;AND&lt;/em&gt; and &lt;em&gt;OR&lt;/em&gt; suffice to represent all expressions.
 However, it might some time be easier to define a few more operators for the sake of simplicity.
 In this article, I will cover the &lt;em&gt;if then&lt;/em&gt; and &lt;em&gt;equivalence&lt;/em&gt; operators.&lt;/p&gt;
 
@@ -514,7 +586,7 @@ We now complete those rules with the two newly defined operators.&lt;/p&gt;
 
 &lt;p&gt;With those tools in hand, we are ready to discover some simple rules of algebra that govern the world of logic and that we will later use to prove what a correct reasoning is.
 Simple rules of algebra will be the topic of the next article: &lt;a href=&quot;/ASARPhiB//boolean-algebra&quot;&gt;Boolean Algebra&lt;/a&gt;
-.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">The boolean operators negation, AND and OR suffice to represent all expressions. However, it might some time be easier to define a few more operators for the sake of simplicity. In this article, I will cover the if then and equivalence operators.</summary></entry><entry><title type="html">An Introduction to Boolean Logic</title><link href="http://localhost:4000/ASARPhiB/intro-to-boolean-logic" rel="alternate" type="text/html" title="An Introduction to Boolean Logic" /><published>2018-01-27T16:27:00+01:00</published><updated>2018-01-27T16:27:00+01:00</updated><id>http://localhost:4000/ASARPhiB/intro-to-boolean-logic</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/intro-to-boolean-logic">&lt;p&gt;A strong and correct reasoning must, at the very least, be rooted in a rock solid logic.
+.&lt;/p&gt;</content><author><name>Jonathan Bennett</name></author><category term="Getting started" /><category term="Logic" /><summary type="html">The boolean operators negation, AND and OR suffice to represent all expressions. However, it might some time be easier to define a few more operators for the sake of simplicity. In this article, I will cover the if then and equivalence operators.</summary></entry><entry><title type="html">An Introduction to Boolean Logic</title><link href="http://localhost:4000/ASARPhiB/intro-to-boolean-logic" rel="alternate" type="text/html" title="An Introduction to Boolean Logic" /><published>2018-01-27T10:27:00-05:00</published><updated>2018-01-27T10:27:00-05:00</updated><id>http://localhost:4000/ASARPhiB/intro-to-boolean-logic</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/intro-to-boolean-logic">&lt;p&gt;A strong and correct reasoning must, at the very least, be rooted in a rock solid logic.
 This article tries to explain the basics of the boolean logic, one of the most commonly used logic in mathematics.&lt;/p&gt;
 
 &lt;p&gt;It is the first article in a series of four:&lt;/p&gt;

@@ -36,6 +36,94 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Open Government</title>
+	  <link>http://localhost:4000/ASARPhiB/open-government</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-09-03T17:30:00-04:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/open-government</guid>
+	  <description><![CDATA[
+	     <p>“Democracy” initially stands for: the power to the people.
+Do you feel like you are in control?
+If you answered no, learn what Open Government is and why we should adopt it !</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Most of the modern democracies are in fact some form of <em>representative</em> democracies.
+Meaning that the people elects representatives that will then rule the country by creating, applying and interpreting laws.
+This leads to situation where the people actually express its will only by electing representatives, so approximately once per year.</p>
+
+<p>Now, why wouldn’t we form some <em>direct</em> democracies ?
+The main argument, few centuries ago, was that it was not possible to manage a whole population voting on each issue.
+And this was fine then.
+But is it now ?</p>
+
+<h1 id="opinion-and-argumentation">Opinion and Argumentation</h1>
+
+<p>In my opinion, of course, it is not: today democracies are obsolete.
+We have the necessary means to create more direct democracies, which I consider better.</p>
+
+<h2 id="why-are-more-direct-democracies-better">Why are more direct democracies better?</h2>
+
+<p>I consider direct democracies to be better for many reasons and here are a few:</p>
+<ul>
+  <li>You might agree on most subject with the person you elect to represent you but what about the other subjects ? Wouldn’t it be easier (except for organizational reasons) to represent yourself… well yourself ?</li>
+  <li>The person you elected to represent you is generally elected for a time span (often a few years). What if that person changes with time ? You cannot tell what he/she will be in 2 or three years.</li>
+  <li>Most of the politicians come from higher social classes. This is problematic, because the population might not be represented equitably.</li>
+  <li>etc.</li>
+</ul>
+
+<h2 id="why-more-direct-democracies-instead-of-direct-democracies">Why <em>more</em> direct democracies instead of direct democracies?</h2>
+
+<p>In think that specialization, to some extend, is great idea and beneficent tool.
+Following that reasoning, I would say that there are complicated subjects and decisions about those should be delegated to groups of experts specialized in that subject.
+Also, it would be impossible to have the people vote on <em>every</em> issues a government faces.
+In my view, neither extreme is good and we are at the representative extreme.</p>
+
+<h2 id="what-now-">What Now ?</h2>
+
+<p>OK, so more direct democracies are probably better.
+What do we do now?</p>
+
+<h1 id="wait-for-it-open-government">Wait for it… Open Government</h1>
+
+<p><img src="assets/images/posts/openGovernment-wordCloud.jpg" alt="Open Government Word Cloud" /></p>
+
+<h2 id="definition">Definition</h2>
+
+<p><em>Note: the definition below might not correspond to the generally accepted definition, or put emphasis on different parts.</em></p>
+
+<p><strong>Open Government</strong>: An Open Source movement that aims to make government data open to the public and to promote civic participation.</p>
+
+<h2 id="what-it-could-be">What it Could Be</h2>
+
+<p>Imagine that your government creates an app or website which allows you to vote, to obtain official dataset easily, to complete administrative procedures and to report problems (like pothole, broken stuffs, etc.).
+Individuals’ life would be easier, contacts with the government would make society more efficient, resources would be better used and transparency would make it harder for corruption to exist.
+This is what Open Government could look like.</p>
+
+<p>You can even think it one step further.
+For example, if there existed a platform where you could download governmental dataset, then you could imagine having citizen or universities doing data mining on it to find ways to optimize how resources are used.</p>
+
+<h1 id="a-little-example">A Little Example</h1>
+
+<p>A few months back, I traveled to Europe.
+During my trip, I visited a few countries, one of which is quite relevant to the thematic at hand: Switzerland.</p>
+
+<p>This little country has a very peculiar system and the Swiss people <strong>votes on average four times a year on elections but also on policies and so-called initiatives</strong>.
+My point being: There exists some countries where a more direct democracy is used and it works.
+In fact it works greatly for Switzerland:</p>
+
+<blockquote>
+  <p>Switzerland has a stable, prosperous and high-tech economy and enjoys great wealth, being ranked as the wealthiest country in the world per capita in multiple rankings. <a href="https://en.wikipedia.org/wiki/Switzerland">Wikipedia, 04-09-2018</a></p>
+</blockquote>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Why Changing Matters?</title>
 	  <link>http://localhost:4000/ASARPhiB/why-changing-matters</link>
 		
@@ -43,7 +131,7 @@
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-05-20T08:10:00+02:00</pubDate>
+	  <pubDate>2018-05-20T02:10:00-04:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/why-changing-matters</guid>
 	  <description><![CDATA[
 	     <p>We live in a very peculiar time, one of technologies, of increasing speed, of ever evolving theories and concepts.
@@ -132,7 +220,7 @@ This is one of the most efficient ways I have ever found to widen or even change
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-03-04T13:34:00+01:00</pubDate>
+	  <pubDate>2018-03-04T07:34:00-05:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/open-source</guid>
 	  <description><![CDATA[
 	     <p>The open source movement is an alternative way of working and cooperating that could very well change our society.
@@ -219,7 +307,7 @@ This could simplify the democratic process and even increase it.</p>
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-02-10T19:39:00+01:00</pubDate>
+	  <pubDate>2018-02-10T13:39:00-05:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/boolean-algebra</guid>
 	  <description><![CDATA[
 	     <p>Binary operators are simple.
@@ -380,7 +468,7 @@ This will be the topic of the next article: <a href="/ASARPhiB//rules-of-inferen
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-02-10T19:39:00+01:00</pubDate>
+	  <pubDate>2018-02-10T13:39:00-05:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/rules-of-inference</guid>
 	  <description><![CDATA[
 	     <p>Simple binary operators aren’t a structure powerful enough to define rules of reasoning.
@@ -491,7 +579,7 @@ So the whole debate is now shifted toward finding the correct premises or toward
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-02-10T19:34:00+01:00</pubDate>
+	  <pubDate>2018-02-10T13:34:00-05:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/complex-boolean-operators</guid>
 	  <description><![CDATA[
 	     <p>The boolean operators <em>negation</em>, <em>AND</em> and <em>OR</em> suffice to represent all expressions.
@@ -639,7 +727,7 @@ Simple rules of algebra will be the topic of the next article: <a href="/ASARPhi
 						<author>Jonathan Bennett</author>
 				
 		
-	  <pubDate>2018-01-27T16:27:00+01:00</pubDate>
+	  <pubDate>2018-01-27T10:27:00-05:00</pubDate>
 	  <guid>http://localhost:4000/ASARPhiB/intro-to-boolean-logic</guid>
 	  <description><![CDATA[
 	     <p>A strong and correct reasoning must, at the very least, be rooted in a rock solid logic.
