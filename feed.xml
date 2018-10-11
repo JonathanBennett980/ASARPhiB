@@ -1,4 +1,362 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/ASARPhiB/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ASARPhiB/" rel="alternate" type="text/html" /><updated>2018-09-05T09:58:48-04:00</updated><id>http://localhost:4000/ASARPhiB/</id><title type="html">ASARPhiB</title><subtitle>ASARPhiB: Simple Almost Rigorous Philosophical Blog&lt;br /&gt;&lt;small&gt;Or just a hASARdous Philosophical Blog&lt;/small&gt;</subtitle><entry><title type="html">Open Government</title><link href="http://localhost:4000/ASARPhiB/open-government" rel="alternate" type="text/html" title="Open Government" /><published>2018-09-03T17:30:00-04:00</published><updated>2018-09-03T17:30:00-04:00</updated><id>http://localhost:4000/ASARPhiB/open-government</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/open-government">&lt;p&gt;“Democracy” initially stands for: the power to the people.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/ASARPhiB/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/ASARPhiB/" rel="alternate" type="text/html" /><updated>2018-10-11T14:06:41-04:00</updated><id>http://localhost:4000/ASARPhiB/</id><title type="html">ASARPhiB</title><subtitle>ASARPhiB: Simple Almost Rigorous Philosophical Blog&lt;br /&gt;&lt;small&gt;Or just a hASARdous Philosophical Blog&lt;/small&gt;</subtitle><entry><title type="html">Pollution and Over-Population, the Modern Evils</title><link href="http://localhost:4000/ASARPhiB/overpopulation" rel="alternate" type="text/html" title="Pollution and Over-Population, the Modern Evils" /><published>2018-09-03T17:30:00-04:00</published><updated>2018-09-03T17:30:00-04:00</updated><id>http://localhost:4000/ASARPhiB/overpopulation</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/overpopulation">&lt;p&gt;Over-population, pollution, global warming, ecology.
+We hear those often but was is really going on?
+What is actually over-population or pollution?
+Should we be concerned?
+My answer: definitely Yes!
+And here is why.&lt;/p&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;In this article, I will use a very engineer-like approach best summarized with the following pseudo-code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Python&quot;&gt;situation = get_situation_under_consideration()
+optimization_criteria = situation.get_most_important_criteria()
+
+if optimization_criteria.is_maximized():
+    pass
+
+else:
+    problem = situation.discover_underlying_problem()
+    return problem.find_solution()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In this article, we will consider Earth’s present day situation.&lt;/p&gt;
+
+&lt;h1 id=&quot;optimization-criteria&quot;&gt;Optimization Criteria&lt;/h1&gt;
+
+&lt;p&gt;Let’s first make an egoistic assumption here and say that we want humanity to survive on the long term&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+This will be our first criterion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Criterion 1&lt;/strong&gt;: Humanity should survive on the long term&lt;/p&gt;
+
+&lt;p&gt;Survival is probably not enough on its own, we want something more in our life, at least I do.
+So I will define my second criterion the following way:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Criterion 2&lt;/strong&gt;: Humans should have enjoyable lives&lt;/p&gt;
+
+&lt;p&gt;I will not give a proper definition of what “enjoyable” is, because I am not sure it is possible to find a definition everzone accepts.
+For now I will just assume we have a common understanding of what an &lt;em&gt;unenjoyable&lt;/em&gt; life is, which is enough to determine if life enjoyability is maximized.&lt;/p&gt;
+
+&lt;p&gt;Awesome, so here are my optimization criteria:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Human survival&lt;/li&gt;
+  &lt;li&gt;Life enjoyability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;time-for-observation&quot;&gt;Time For Observation&lt;/h1&gt;
+
+&lt;p&gt;Now that I have fixed what I want to optimize, let’s look at the current situation and determine if we should change anything to the way we do things.&lt;/p&gt;
+
+&lt;p&gt;You probably guessed it, in my opinion, life enjoyability is not maximized &lt;em&gt;at all&lt;/em&gt; on Earth and human survival could become a real question in the short term.&lt;/p&gt;
+
+&lt;p&gt;Poverty and hunger in Africa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/images/posts/africa_poverty.png&quot; alt=&quot;Poverty in Africa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pollution and health issues in China&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/images/posts/air_pollution.jpg&quot; alt=&quot;Pollution in China&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over-population in India&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/images/posts/overpopulation_india.jpg&quot; alt=&quot;Over-population in India&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There exist many other examples across the globe.&lt;/p&gt;
+
+&lt;h1 id=&quot;understanding-the-problem&quot;&gt;Understanding the Problem&lt;/h1&gt;
+
+&lt;p&gt;So what went wrong?
+Well, before going any further in this reflection, let’s try have a deeper understanding of some of our optimization criteria.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-human-survival-is-made-of&quot;&gt;What Human Survival is Made Of&lt;/h2&gt;
+
+&lt;p&gt;Our survival depends maily on us being able to stay alive.
+To stay alive, we need enough energy to function and a good health, as simple as that.&lt;/p&gt;
+
+&lt;h2 id=&quot;core-components-of-an-enjoyable-life&quot;&gt;Core Components of an Enjoyable Life&lt;/h2&gt;
+
+&lt;p&gt;How could we define an “enjoyable life” so that anyone would agree with the definition?
+Finding good definition is a really complicated problem and I won’t pretend I have one for what an “enjoyable life” is.
+On the other hand I think it is possible to identify  a few components that could reasonably appear in all possible definitions.&lt;/p&gt;
+
+&lt;p&gt;Alright so a first component I find reasonable is &lt;strong&gt;health&lt;/strong&gt;.
+Staying healthy is often a very important part of having an enjoyable life.&lt;/p&gt;
+
+&lt;p&gt;Second, I think that all humans want some kind of &lt;strong&gt;comfort&lt;/strong&gt;.
+Comfort might be very primitive like having enough to eat and a roof above one’s head, but we all want some.
+It seems quite clear from the previous example that comfort strongly depends on &lt;em&gt;resources&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lastly, I think that all humans want to have the chance of doing cool experiences, I’ll talk about &lt;strong&gt;opportunities&lt;/strong&gt;.
+And those do, one way or another, also depend on &lt;em&gt;resources&lt;/em&gt;.
+Let’s consider a few examples.
+Assume you have the opportunity to visit a foreign country.
+You will need resources to travel there (fuel if you take car or plane, food if you go by foot or bike, etc).
+You will also want to have some accommodation there (heat, light, food, shelter built using raw materials) which requires resources and opportunities to visit and discover which, themselves, will also require some form of resources.
+Basically, every actions we perform require resources (whether it is simply the energy needed to move our muscle that we gain from eating food or resources we use to create and power machine that perform actions for us).
+And the more resources we have at our disposal, the more things we can do, so the more opportunities we can have.&lt;/p&gt;
+
+&lt;p&gt;So we were able to pinpoint a very interesting common denominator: resources (for which I do have a definition this time).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resource&lt;/strong&gt;:
+Energy stored under a precise form that human kind can use.
+Example: food, fossil fuel, wind.&lt;/p&gt;
+
+&lt;p&gt;Thus the life enjoyability metrics in our modern society becomes very dependent on resources.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;Humankind requires many &lt;em&gt;different&lt;/em&gt; kind of resources: food, wood, electricity, heat, light, etc.&lt;/p&gt;
+
+&lt;p&gt;Resources available to us on Earth are limited though.
+A reasonable model for human accessible resources is given hereafter.
+Earth’s only source of energy is the Sun.
+As we can directly exploit Sun’s energy (solar panels, solar heat plants, etc) I will consider it a resource in itself.
+However, let’s note that we are not capable of transforming the Sun’s energy into all the types of resources we need (e.g. there are no human machine that can produce wood or food out of the Sun’s radiations).
+But the Sun’s energy can be transformed by non-human entities living on Earth like plants and those provide us with the resources that we are not capable of creating ourselves.
+Finally Earth also has a certain amount of stored resources like fossil fuels, already existing plants, radioactive matter, etc.&lt;/p&gt;
+
+&lt;p&gt;A few key takeaway points here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The total quantity of energy Earth receives per time unit is finite and defined by the Sun.&lt;/li&gt;
+  &lt;li&gt;We are unable to produce some of the forms of resources we need. This point is very important: it highlights the fact that &lt;em&gt;we are very much dependent on the environment to provide us with the resources we need&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Resources &lt;em&gt;stored&lt;/em&gt; on Earth are finite, hence using more resources than the produced ones per time unit cannot be done for long: at some point we will simply run out of them.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let’s formalize this:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;r(t) = egr(t) + hgr(t) + reserves(t)&lt;/script&gt;
+
+&lt;p&gt;Where:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(r(t)\) is the total human available resources at a given point of time. Unit: \([ressource]\)&lt;/li&gt;
+  &lt;li&gt;\(egr(t)\) are the environment generated resources at a given point of time. Units: \([ressource]\)&lt;/li&gt;
+  &lt;li&gt;\(hgr(t)\) are the human generated resources directly from the sun energy which nowadays is a very very small proportion of the total resources we consume. Units: \([ressource]\)&lt;/li&gt;
+  &lt;li&gt;\(reserves(t)\) are Earth’s stored resources at a given point of time. Units: \([ressource]\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that we know what our optimization criteria actually rely on, let’s discover why they are not maximized.&lt;/p&gt;
+
+&lt;p&gt;An index I find really interesting about resource consumption, to have an idea is the planet equivalent.
+It basically boils down to “How many planets would we need to have all humans living like &amp;lt;nationality&amp;gt;?”.
+For example, if we all wanted to have an american lifestyle, we would require the resources produced by &lt;em&gt;five&lt;/em&gt; planet Earth!
+On the other hand, if we all lived like Indians, we would only require 0.6 planet (&lt;a href=&quot;https://www.footprintnetwork.org/&quot;&gt;Foot Print Network&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;It is estimated that the present day human population consumes 1.7 Earths…
+We probably won’t be able to do it for long.&lt;/p&gt;
+
+&lt;h2 id=&quot;two-major-problems-over-population-and-pollution&quot;&gt;Two Major Problems: Over Population and Pollution&lt;/h2&gt;
+
+&lt;p&gt;In the media we often hear about pollution, and over-population.
+We all have some understanding of those terms but what are we talking about exactly, and are they really so bad?&lt;/p&gt;
+
+&lt;p&gt;There is an intrinsic human perspective in the terms “over-population” and “pollution”.
+The Earth does not care about over-population or pollution, whatever that is.
+It was here long before us and will continue to do so long after we disappear.&lt;/p&gt;
+
+&lt;p&gt;One could argue that pollution and global warming are also animal and vegetal problem.
+I would absolutely agree, but when humans talk about pollution or over-population, they generally refers to the troubles it could cause &lt;em&gt;them&lt;/em&gt;, not the troubles it causes other species.
+So let’s assume this perspective too.&lt;/p&gt;
+
+&lt;p&gt;Cool, so now, let’s try to define those terms and prove that they are key components of the problems we acknowldged above.&lt;/p&gt;
+
+&lt;h3 id=&quot;over-population-and-lifestyle&quot;&gt;Over Population (and Lifestyle)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Over-population&lt;/strong&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Overpopulation occurs when a species’ population exceeds the carrying capacity of its ecological niche.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Overpopulation&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I will define a few variables here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(lifestyle\), that represent the average lifestyle of a population.&lt;/li&gt;
+  &lt;li&gt;\(pop\), the total total number of humans on Earth (\(pop\) for population). Units: \([individual]\)&lt;/li&gt;
+  &lt;li&gt;\(cri(lifestyle)\), the average consumed resources per individual per unit of time for a given lifestyle. Unit: \([ressource/(individual \cdot time)]\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So over population is the state were:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+egr(t) + hgr(t) &lt; pop(t) \times cri(lifestyle) %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;This situation diminishes Earth’s stored resources \(ressources(t)\).
+And at some given point in time \(ressources(t_1) = 0\).
+Then we won’t have enough ressources available for our entire population to maintain its lifestyle.
+This generally results in lifestyle pejoration which lowers life enjoyability.
+Actually, this lifestyle pejoration can be bad enough so that at some point it event threaten the very survival of the individuals (famine are an example of such a situation).
+This now also impacts negatively our first criterion: human kind survival.&lt;/p&gt;
+
+&lt;p&gt;Hence using more resources than what the environment provides is a bad idea that will eventually catch up with us.&lt;/p&gt;
+
+&lt;p&gt;Mathematically one can summarize the maximal amount of ressources an individual should consume the following way:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;mri(t) = \frac{epr(t) + hgr(t)}{pop(t)}&lt;/script&gt;
+
+&lt;p&gt;Where:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(mri\) is the maximum resource quantity an individual should consume in average. Unit: \([resource/individual]\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If \(mri(t) \lt cri(lifestyle)\), then the life enjoyability index is diminished because we simply cannot sustain having the wanted lifestyle as the maximum available resources per individual in less than the resources that would be needed for the given lifestyle.
+We remark that when the population becomes big, the \(mri\) get smaller.
+If the population get very big, then, at some point, \(mri\) will become less than \(cri\) and the above described situation will occur.&lt;/p&gt;
+
+&lt;p&gt;This a reason why over-population is a problem.&lt;/p&gt;
+
+&lt;h3 id=&quot;pollution&quot;&gt;Pollution&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Pollution&lt;/strong&gt;: Adding substances or energy of some form (nose, light, etc) so fast into the environment that it causes changes that are harmful to human kind.&lt;/p&gt;
+
+&lt;p&gt;In my opinion, pollution is problematic for the following reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It impacts human health directly which has a negative impact on the optimization of human survival and life enjoyability.&lt;/li&gt;
+  &lt;li&gt;It indirectly diminishes human resources (e.g. ocean pollution causing fishes to die, massive bees extinction have had disastrous consequences on harvests), and thus lowers our life enjoyability.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Let’s again try to formalize this idea.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(pollution\) represents the total quantity of substances and energy released by human kind in the environment. Units: \([pollution]\)&lt;/li&gt;
+  &lt;li&gt;\(pi\) is the average pollution per individual. Units: \([pollution/individual]\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;pollution(t) = pop(t) \times pi(lifestyle)&lt;/script&gt;
+
+&lt;p&gt;Let’s make a few remarks here.
+As the definition tells us, pollution is problematic only above a certain threshold.
+So problems only arise when \(pollution(t) &amp;gt; epac\) where \(epac\) is the environment pollution absorbance capacity.&lt;/p&gt;
+
+&lt;p&gt;Do we generate more pollution than what the environment can absorb?
+If you ask me, it simply makes no doubt.
+To prove this claim, I will refer to the definition: are we polluting the environment enough that it causes troubles to us?
+Consider global warming and all the issues related to it (ocean rise, extrem climatical events, desertification, etc).
+You have your answer.&lt;/p&gt;
+
+&lt;h1 id=&quot;solutions&quot;&gt;Solutions&lt;/h1&gt;
+
+&lt;p&gt;Thanks to the formulas above we can easily find a lot of solutions.
+But first, let’s define a few things we want to keep constant or even increase.
+In my opinion, \(lifestyle\) should not be decreased, on the contrary, it should increase.&lt;/p&gt;
+
+&lt;p&gt;So what can we do?&lt;/p&gt;
+
+&lt;p&gt;We could &lt;strong&gt;reduce the pollution generated per individual&lt;/strong&gt;.
+It is often considered a part of &lt;em&gt;ecology&lt;/em&gt;: have the same lifestyle but reduce the generated pollution by it (recycling, less wrapping, local products, etc).
+We do it to some extend, but I believe we could do much more.
+Technology and innovation have big role to play here.
+This solution can help lower pollution and hence improves life enjoyability and human survival.&lt;/p&gt;
+
+&lt;p&gt;We could also improve &lt;strong&gt;resource efficiency&lt;/strong&gt; which, in essence, means consuming less resources, while maintaining the same lifestyle.
+This is also often considered a part of ecology.
+Again technology and innovation have a big role to play here.
+This solution can help lower ressource consumption and hence improves life enjoyability.&lt;/p&gt;
+
+&lt;p&gt;But the two above given solutions can only have limited impact because there are fundamental limits to what can be done.
+Most action have a physical minimum amount of energy needed (transport can be made more efficient by reducing waste and friction for example but Newton’s law \(F = m \cdot a\) sets the minimum required enegry).&lt;/p&gt;
+
+&lt;p&gt;The solution I think has the biggest long term potential impact is &lt;strong&gt;human population reduction&lt;/strong&gt;.
+This would reduce the total pollution generated and increase the total ressources available per individuals, thus improving life enjoyability and not changing human kind survival (I mean with 500 millions individuals, our chances of survival are as high as if we are 9 billions in my opinion).&lt;/p&gt;
+
+&lt;p&gt;Note that I do not pretend to propose solutions to diminish the human population on Earth.
+This is yet another complex problem and finding ethical solutions to it is actually quite complicated.
+I just say that if we could limit the human population, it would solve a lot of problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;imagine-another-world&quot;&gt;Imagine Another World&lt;/h2&gt;
+
+&lt;p&gt;To conclude this article, imagine what a world with only 500 millions human being (which is roughly equivalent to the american population) would look like.&lt;/p&gt;
+
+&lt;p&gt;Here is how I envisage the situation.
+All humans would have decided to live on a single continent.
+The one that suffers the less from extreme climatical events like tornados, earthquakes or tsunamis.
+500 millions probably represent enough human beings to maintain our lifestyle.
+It would simplify politics a lot as we could form only one country.
+Individuals could also pollute more while without causing much damage to the environment (you could take the plane without having problems of conscience for example).&lt;/p&gt;
+
+&lt;p&gt;Moreover it would allow many places on Earth to be exempt from human traces and authentique human-exempt areas could exists (which is an idea I find facinating).&lt;/p&gt;
+
+&lt;h2 id=&quot;further-ideas&quot;&gt;Further Ideas&lt;/h2&gt;
+
+&lt;h3 id=&quot;an-argument-for-biodiversity-and-environmental-protection-to-some-extent&quot;&gt;An Argument for Biodiversity and Environmental Protection (To Some Extent)&lt;/h3&gt;
+
+&lt;p&gt;I said earlier that some forms of resources on Earth are only generated by plants.
+Actually human kind mostly relies on its environment to provide it with the resources it needs.&lt;/p&gt;
+
+&lt;p&gt;Interestingly enough, the machine producing the various resources we need, plants and animals, also happen to be the resources.
+It gets even crazier when we remark that the quantity of plants at \(t+1\) actually also depends on the plant quantity at \(t\) (this comes from the fact that plants reproduce, i.e. plants are their own factory, they are not produce by an external source).
+In short, plants and animals are self-generating, resource-producent and resource themselves.&lt;/p&gt;
+
+&lt;p&gt;Cool, let’s now assume that we want to maximize the total resource quantity made available to us by the environment over time.
+The question is how many plants (I will talk about plants only but this can be generalized to animals) can we harvest and transform into resources now and how many plants should we leave alone so that they serve plant generation.&lt;/p&gt;
+
+&lt;p&gt;The total harvested ressources are given with the following formula:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;resources = \sum_t harvest(t)&lt;/script&gt;
+
+&lt;p&gt;Where \(harvest(t)\) is the amount of plants harvested at time \(t\).
+But we need to understand how plants evolve with time to understand what the possible values of \(harvest\) are.
+For example if \(harvest(t_1) = plants(t_1)\), then all subsequent harvests will be zero (because you used all plants and left no one to perpetuate the plant stock).
+This probably means that we won’t maximize the total harvest.&lt;/p&gt;
+
+&lt;p&gt;A simple model is the following:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;plants(t) = \lambda (plants(t-1) - harvest(t))&lt;/script&gt;
+
+&lt;p&gt;Where:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;\(plants(t)\) represent the quantity of entities that produce resources for us in some form at a given point of time.&lt;/li&gt;
+  &lt;li&gt;\(\lambda\) is the reproduction rate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NB: Such models do have complicated mathematical solutions.
+The model presented here is also very simple and does not take in account many complicated aspects (like the fact that some resources get stale with time).&lt;/p&gt;
+
+&lt;p&gt;The main point is that if one harvests more than what the environment can compensate for, then, over time, the available quantity of plants gets lower and lower until you reach zero which is clearly not a good solution.
+I believe that we are currently doing exactly that: harvesting more resources than what the environment can compensate for.
+And this will most likely create very important troubles in a not so distant future, hence the need to stop over exploiting the environment.&lt;/p&gt;
+
+&lt;p&gt;Now some bits about biodiversity.
+Recent years, most probably because of pollution, we have witnessed one of the most massive species extinction rate in Earth history.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/images/posts/extinction_rate.png&quot; alt=&quot;Extinction rate&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fine, what’s the matter?
+Well the problem is that a loss of biodiversity implies a loss of genetical diversity.
+And this genetical diversity ensures the environment is ready to face changes, which guarantees to us humans that the environment will never stop providing us with resources.
+In my opinion, it is therefore very important to preserve biodiversity.&lt;/p&gt;
+
+&lt;h3 id=&quot;an-argument-for-equitable-resource-sharing-among-humans&quot;&gt;An Argument for Equitable Resource Sharing Among Humans&lt;/h3&gt;
+
+&lt;p&gt;We said we wanted to maximize life enjoyability and saw that it depended on resources.
+In this article, I implicitely considered that resources were shared equitably.
+Of course this is not the case and having a better distribution of resources across individuals wuld probably be a very good idea for the following reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A person with no resources probably has a very unenjoyable life&lt;/li&gt;
+  &lt;li&gt;Studies have shown that above a certain limit, having more resources does not make one happier&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Changing resources distribution however is highly untrivial and will probably require a change of system.
+I will try to write an article about this in the future.&lt;/p&gt;
+
+&lt;p&gt;Hence you always try to find very easily acceptable axioms because if everyone agrees on the axioms you chose and if you proof is logically correct, then everyone should agree with your conclusion.
+Unfortunetaly it is highly non-trivial to find such axioms, especially if you want your proof to remain true across different populations, continents, cultures and time epochs.
+In that regard I find the axiom “Humanity should survive” very interesting because survival is probably implemented in our genes to some extent.
+And therefore I believe it is very easy easy to accept that axiom.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;In the world of philosophy and logic, there are always some very basic sentences that you consider true but that you cannot prove, they are called axioms.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Jonathan Bennett</name></author><category term="ecology" /><category term="pollution" /><summary type="html">Over-population, pollution, global warming, ecology. We hear those often but was is really going on? What is actually over-population or pollution? Should we be concerned? My answer: definitely Yes! And here is why.</summary></entry><entry><title type="html">Open Government</title><link href="http://localhost:4000/ASARPhiB/open-government" rel="alternate" type="text/html" title="Open Government" /><published>2018-09-03T17:30:00-04:00</published><updated>2018-09-03T17:30:00-04:00</updated><id>http://localhost:4000/ASARPhiB/open-government</id><content type="html" xml:base="http://localhost:4000/ASARPhiB/open-government">&lt;p&gt;“Democracy” initially stands for: the power to the people.
 Do you feel like you are in control?
 If you answered no, learn what Open Government is and why we should adopt it !&lt;/p&gt;
 
