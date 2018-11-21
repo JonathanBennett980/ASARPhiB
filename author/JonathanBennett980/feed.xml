@@ -25,7 +25,7 @@
    </description>
    <link>http://localhost:4000/ASARPhiB/</link>
    <image>
-   <url>http://localhost:4000/ASARPhiB/assets/images/ASARPhiB_logo.svg.png</url>
+   <url>http://localhost:4000/ASARPhiB/assets/images/favicon.png</url>
    <title>Jonathan Bennett - ASARPhiB</title>
    <link>http://localhost:4000/ASARPhiB/</link>
    </image>
@@ -35,6 +35,267 @@
    <ttl>60</ttl>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
+	<item>
+	  <title>Can Science Be Objective?</title>
+	  <link>http://localhost:4000/ASARPhiB/objectivity</link>
+		
+				
+						<author>Jonathan Bennett</author>
+				
+		
+	  <pubDate>2018-11-21T03:00:00-05:00</pubDate>
+	  <guid>http://localhost:4000/ASARPhiB/objectivity</guid>
+	  <description><![CDATA[
+	     <p>Science represent a big deal nowadays and there is a tendency to believe that it basically discovers the one and only truth.
+But is that really so?</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Someone recently told me that “Everything is subjective”.
+The scientific that I am was somewhat revolted by the very idea.
+So I thought about this for quite some time, made some researches, thought some more and this article sums up my conslusions.</p>
+
+<p>To prove that the above assertion is wrong I chose to try to prove that there are cases where objectivity does exist.
+This would be a counter-example and would thus prove that it is not true that everything is subjective.</p>
+
+<h1 id="what-is-objectivity">What is Objectivity</h1>
+
+<p>To discuss “objectivity” it seems appropriate to have a definition.
+Unfortunately, there are many different definitions of objectivity.</p>
+
+<p>In this article I will consider mainly two of them.</p>
+
+<ol>
+  <li><strong>Objective</strong>: The property of a boolean proposition to always be true whatever the context we consider the proposition in.</li>
+  <li><strong>Objective</strong>: The property of an object to speak for itself.</li>
+</ol>
+
+<p>The first one is very mathematical while the second is more of a philosophical point of view.</p>
+
+<p>NB: If you are not familiar with boolean logic, I recommend you read first the <a href="https://jonathanbennett980.github.io/ASARPhiB/tag/getting-started/">4 articles</a> I wrote about boolean logic.
+Some parts of this post assumes that you have a rather in-depth knowlegde of boolean logic.</p>
+
+<h1 id="science">Science</h1>
+
+<h2 id="what-science-really-is">What Science Really Is</h2>
+
+<p>What is the goal of Science?
+Is it to discover the truth?
+Well, surprisingly enough, it absolutely is not.
+The goal of Science is to provide humans with models of reality that allow us to make prediction on what will happen in the future (and sometimes also to explain what happened in the past).</p>
+
+<p>For example, Newton’s gravity law allow us to predict what will happen if we drop an apple on Earth.
+It does also explain what will happen if drop an apple in space.
+It is also a form of explanation for the fact that we always land on Earth when we jump.</p>
+
+<p>A scientific model has to be falsifiable.
+This means that one must be able to test that the model is correct.
+As soon as one can find an experiment whose result cannot be explained by the model, then we know that the model does not work. This can mean that the model is all-together wrong or that it does not work everywhere.
+For example, try to explain what happens if you drop an apple next to a black-hole and Newton’s gravity law will be totally useless.
+Newton’s gravity law is only valid in certain conditions; it has a validity scope.
+To be perfectly honest, Newton’s law is an approximation whose error is small enough that we don’t care in most cases.
+But some extreme cases (like black-holes) make the error so big that the results of the model are totally off.</p>
+
+<p>In essence, Science is the art of modelizing reality to make reasonable enough predictions.
+By seeking to be always more precise we might find models that are really precise.
+But will they ever be the truth?
+I don’t know.
+In fact it is impossible, or at least we don’t know how, to prove that a model is <em>the truth</em>.
+For now, we are only able to prove that a model is wrong by finding example where it does not work.</p>
+
+<p>For this reason, Science is not the objective truth.
+It is only the best approximation of reality we could come up with<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<h2 id="can-science-be-objective">Can Science Be Objective</h2>
+
+<h3 id="first-definition">First Definition</h3>
+
+<p>Can Science allow us to find boolean proposition that are always true?
+Maybe we will be able to find models that are actual translation in mathematical words of the rules that governs the universe.
+Maybe.
+But I am not sure we will ever be able to prove that the model we found is <em>the truth</em>.
+Hence, I believe that Science will never be able to match the first definition.</p>
+
+<p>In the current situation, I believe no one has ever proven the veracity of a scientific fact.
+Therefore, if you ask me, Science is not objective assuming the first definition of objectivity.</p>
+
+<h3 id="second-definition">Second Definition</h3>
+
+<p>As for the second definition, unfortunately, I don’t believe that it is possible to prove that some observed value is independent of the context.
+Don’t get me wrong here: I believe there are fundamental quantities (like position, time and energy that is then expressed under different forms like mass, acceleration, etc.).
+But for our measurement to be objective, we would need to be able to prove that wherever we perform them, we will always get the same value (for example, if you perform the measure on Earth, on Mars and near a black-hole, you would need to have the same value every time).
+Can you prove that the instrument used to perform the measurement is flawless, that its behavior won’t change depending on where it is or how fast it moves?
+I don’t think anyone is able to prove such a thing (but if you are, please to send me an email!!).</p>
+
+<h3 id="science-cannot-be-objective">Science Cannot Be Objective</h3>
+
+<p>For me, Science is not objective regarding any of the two definitions we came up with.
+But this should not be an excuse to fall into accepting subjectivity.
+Science’s goal, although unattainable, should still be pursued relentlessly so that we come up with models that are always more precise, maybe even the truth although we cannot prove it, and that will allow us to do new incredible things every day.</p>
+
+<h1 id="does-objectivity-exist">Does Objectivity Exist</h1>
+
+<h2 id="mathematics">Mathematics</h2>
+
+<p>Now seems like the right moment to make a quick remark, Mathematics are <em>not</em> part of Science, not in any possible way.
+Take a look back at the definition of Science we used so far and you will see that by no mean can Science entails Mathematics.
+Mathematics is a very powerful tool used extensively by Science to create its models but Math have nothing to do with reality.
+As such Math is not a part of Science.
+In my opinion, it has more to do with philosophy than with Science.</p>
+
+<h2 id="first-definition-of-objectivity-in-the-math-world">First Definition of Objectivity in the Math World</h2>
+
+<p>Can we find propositions that are always true whatever the context?
+The answer is trivially Yes: \(P = True\)</p>
+
+<p>And that’s it, we found a proposition that is always true: the true proposition.</p>
+
+<p>This example is very simple and might feel somewhat unsatisfactory, so let me give you another example:</p>
+
+<script type="math/tex; mode=display">P = ((A \rightarrow B) \wedge (B \rightarrow C)) \rightarrow (A \rightarrow C)</script>
+
+<p>This proposition, way more complipacted, can be proven to always be true:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+P =&\ ((A \rightarrow B) \wedge (B \rightarrow C)) \rightarrow (A \rightarrow C)\\
+\equiv&\ \neg((\bar A \vee B) \wedge (\bar B \vee C)) \vee (\bar A \vee C)\\
+\equiv&\ A \bar B \vee B \bar C \vee \bar A \vee C
+\end{aligned} %]]></script>
+
+<p>Let’s know have a look at the different values that \(P\) can take depending on \(A, B, C\):</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This is already way more interesting.
+Basically, what the above proposition means, once translated into human language is that if \(A\) implies \(B\) and \(B\) implies \(C\), then \(A\) also implies \(C\).</p>
+
+<p>This is an objective fact if we observe the first definition of objectivity.
+Notice that we do not concern ourselves with the facts that \(A\) truely implies \(B\) or that \(B\) truely implies \(C\).
+Instead we just say that if it is the case that \(A\) truely implies \(B\) and that \(B\) truely implies \(C\), then it is also the case that \(A\) implies \(C\), no matter what.</p>
+
+<h2 id="second-definition-of-objectivity-in-the-math-world">Second Definition of Objectivity in the Math World</h2>
+
+<p>Are there objects that speak for themselves in the world of Mathematics?
+I believe there are and here is a simple example of this: consider the function \(f(x) = 0\).
+This mathematical function will always return 0, whatever the context, whichever value of \(x\) we give it.
+In fact, it seems to me that Mathematics were created in the sole purpose of having object that speak for themselves because objects in math, like a function or a variable, are defined in such a way to entail all the information we have about them.
+As such they do speak for themselves.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>In this article I proposed a (somewhat informal) proof that objectivity exist in the world of Mathematics.
+However, I don’t know if it will ever be possible to prove that scientific models are objective.</p>
+
+<h2 id="further-exploration">Further Exploration</h2>
+
+<h3 id="first-definition-1">First Definition</h3>
+
+<p>Depending on how you understand the word “context” in the first definition, you might find a contradiction in the definition.
+What if the rules of boolean logic are part of the context?
+How can we then speak of the truth value of a boolean proposition, which is inherently linked to boolean logic?</p>
+
+<p>A more mathematical, but also limited, way of defining objectivity could be the following:
+<strong>Objectivity</strong>: Assuming boolean logic as a framework, “objective” is the property of a boolean proposition to always be true whatever the value of any other boolean propositions.</p>
+
+<p>This brings an interesting point: can we talk about objectivity, or subjectivity for that matter, outside of any framework, i.e. philosophical rules of discussion?</p>
+
+<p>In my opinion, it is not possible, for the simple fact that you need a definition of definition, or similarly a definition of equivalence, because a definition is some form of equivalence.
+But this already mean putting a context, a framework.
+So I believe it makes no sense to discuss objectivity or subjectivity outside of any framework.</p>
+
+<p>Some might argue that this means there exists no true objectivity.
+In my opinion, this is falascious because the mear fact of asserting the objectivity does not exist is pronounced inside a framework that defines at least what a definition is.
+Thus it is not objective, thus it might be false.</p>
+
+<p>An interesting parallel to draw here is with Gödel’s incompleteness theorems that assert the following:</p>
+
+<blockquote>
+  <p>The first incompleteness theorem states that no consistent system of axioms whose theorems can be listed by an effective procedure (i.e., an algorithm) is capable of proving all truths about the arithmetic of the natural numbers. For any such formal system, there will always be statements about the natural numbers that are true, but that are unprovable within the system.
+The second incompleteness theorem, an extension of the first, shows that the system cannot demonstrate its own consistency.</p>
+
+  <p><a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">Wikipedia</a></p>
+</blockquote>
+
+<p>If you have thoughts on this, don’t hesitate to leave a comment below.</p>
+
+<h3 id="second-definition-1">Second Definition</h3>
+
+<p>The second definition also make some implicit assumptions when it talks about objects.
+First it assumes that there exists some of those objects.
+But how do we know that we don’t live inside the matrix, that reality does indeed exist?
+Or for that matter that a <em>Truth</em> does exist?</p>
+
+<p>Those are deep and very interesting philosophical questions but they somewhat outrange the scope of this article, so I will just leave them unanswered.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This does explain to some extent why we tend to confuse Science and the Truth. Our approximations being precise enough most of the time we have trouble making the difference between the two. Nevertheless, this is a mistake: Science should be considered not true until proven otherwise. This does not mean that it is totally wrong either: some approximations might very well be sufficient enough. As far as I know, no one knows how to prove the veracity of Science.&nbsp;<a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+	  ]]></description>
+	</item>
+
 	<item>
 	  <title>Open Government</title>
 	  <link>http://localhost:4000/ASARPhiB/open-government</link>
